@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="LIN59000557" name="com.capgemini.LocateElements" tests="1" failures="0" timestamp="2 Feb 2018 09:36:05 GMT" time="57.726" errors="0">
+  <testcase name="locate" time="0.286" classname="com.capgemini.LocateElements"/>
+</testsuite>

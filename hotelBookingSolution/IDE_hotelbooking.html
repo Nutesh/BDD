@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head profile="http://selenium-ide.openqa.org/profiles/test-case">
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<link rel="selenium.base" href="https://www.google.com/" />
+<title>New Test</title>
+</head>
+<body>
+<table cellpadding="1" cellspacing="1" border="1">
+<thead>
+<tr><td rowspan="1" colspan="3">New Test</td></tr>
+</thead><tbody>
+<tr>
+	<td>open</td>
+	<td>file:///D:/BDD/BDD%20certf/hotelBooking/hotelBooking/login.html</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//*[@id='mainCnt']/div[1]/div[1]/h1</td>
+	<td>Hotel Booking Application</td>
+</tr>
+<tr>
+	<td>echo</td>
+	<td>Heading Matched</td>
+	<td></td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//*[@id='userErrMsg']</td>
+	<td>* Please enter userName.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userName</td>
+	<td>capgemini</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyText</td>
+	<td>//*[@id='pwdErrMsg']</td>
+	<td>* Please enter password.</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userPwd</td>
+	<td>c1234</td>
+</tr>
+<tr>
+	<td>click</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>verifyAlert</td>
+	<td>Invalid login! Please try again!</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>name=userPwd</td>
+	<td>capg1234</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>css=input.btn</td>
+	<td></td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtFirstName</td>
+	<td>neelima</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtLastName</td>
+	<td>Padmawar</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtEmail</td>
+	<td>nee@gmail.com</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtPhone</td>
+	<td>9270355623</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>css=textarea</td>
+	<td>Dhayari Pune</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=city</td>
+	<td>label=Pune</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=state</td>
+	<td>label=Maharashtra</td>
+</tr>
+<tr>
+	<td>select</td>
+	<td>name=persons</td>
+	<td>label=2</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtCardholderName</td>
+	<td>Neelima</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtDebit</td>
+	<td>12345678</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtCvv</td>
+	<td>890</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtMonth</td>
+	<td>5</td>
+</tr>
+<tr>
+	<td>type</td>
+	<td>id=txtYear</td>
+	<td>2020</td>
+</tr>
+<tr>
+	<td>clickAndWait</td>
+	<td>id=btnPayment</td>
+	<td></td>
+</tr>
+</tbody></table>
+</body>
+</html>

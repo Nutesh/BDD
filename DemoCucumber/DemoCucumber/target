@@ -1,0 +1,20 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "My first test",
+        "description": "Given:this is my first step\r\nWhen:this is my second step\r\nThen:this is my final step",
+        "id": "proof-of-concept-that-framework-work;my-first-test",
+        "type": "scenario",
+        "keyword": "Scenario"
+      }
+    ],
+    "name": "Proof of concept that framework work",
+    "description": "",
+    "id": "proof-of-concept-that-framework-work",
+    "keyword": "Feature",
+    "uri": "features/myfeature.feature"
+  }
+]
